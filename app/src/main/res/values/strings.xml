@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Қазақтың салт-дәстүрлері</string>
+    <string name="tab_text_1">Тәрбие салт</string>
+    <string name="tab_text_2">Отау көтеру</string>
+    <string name="tab_text_3">Отбасы</string>
+    <string name="tab_text_4">Еңбек</string>
+    <string name="tab_text_5">Наурыз</string>
+    <string name="tab_text_6">Ислам</string>
+    <string name="tab_text_7">Қаза ғүрыптары</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="table_main">main</string>
+    <string name="table_main_column_mainNames">mainNames</string>
+    <string name="table_main_column_tarbie">tarbie</string>
+    <string name="table_main_column_otau">otau</string>
+    <string name="table_main_column_otbasi">otbasi</string>
+    <string name="table_main_column_enbek">enbek</string>
+    <string name="table_main_column_nauriz">nauriz</string>
+    <string name="table_main_column_islam">islam</string>
+    <string name="table_main_column_kaza">kaza</string>
+
+    <!--real banner_ad_unit_id-->
+    <string name="banner_ad_unit_id">ca-app-pub-3941279894802307/1793590291</string>
+    <!--test banner_ad_unit_id-->
+    <!--<string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>-->
+
+    <string-array name="tableNames">
+        <item>tarbie</item>
+        <item>otau</item>
+        <item>otbasi</item>
+        <item>enbek</item>
+        <item>nauriz</item>
+        <item>islam</item>
+        <item>kaza</item>
+    </string-array>
+
+</resources>
