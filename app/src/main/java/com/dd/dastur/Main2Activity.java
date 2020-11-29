@@ -1,14 +1,13 @@
 package com.dd.dastur;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
+import androidx.appcompat.app.AppCompatActivity;
+
 
 public class Main2Activity extends AppCompatActivity {
 
@@ -17,9 +16,9 @@ public class Main2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
-        AdView mAdView = findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
+//        AdView mAdView = findViewById(R.id.adView);
+//        AdRequest adRequest = new AdRequest.Builder().build();
+//        mAdView.loadAd(adRequest);
 
         int position = getIntent().getIntExtra("position", 0);
         int sectionNumber = getIntent().getIntExtra("ARG_SECTION_NUMBER", 0);
